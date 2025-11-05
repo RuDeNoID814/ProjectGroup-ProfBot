@@ -1,0 +1,14 @@
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\ProfBot.exe
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\ProfBot.deps.json
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\ProfBot.runtimeconfig.json
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\ProfBot.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\ProfBot.pdb
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.AssemblyInfoInputs.cache
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.AssemblyInfo.cs
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.csproj.CoreCompileInputs.cache
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\refint\ProfBot.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.pdb
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.genruntimeconfig.cache
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ref\ProfBot.dll

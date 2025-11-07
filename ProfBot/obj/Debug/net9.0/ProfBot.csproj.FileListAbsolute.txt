@@ -12,3 +12,13 @@ C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\refint\ProfBo
 C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.pdb
 C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.genruntimeconfig.cache
 C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ref\ProfBot.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.csproj.AssemblyReference.cache
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.sourcelink.json
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.Options.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\bin\Debug\net9.0\Telegram.Bot.dll
+C:\Users\MARON\RiderProjects\ProjectGroup\ProfBot\obj\Debug\net9.0\ProfBot.csproj.Up2Date

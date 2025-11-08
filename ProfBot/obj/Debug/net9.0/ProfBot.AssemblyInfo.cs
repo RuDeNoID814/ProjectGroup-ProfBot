@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProfBot")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f2f37f60fd0f3d5525348353bb2ff0545dfabaad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa41b36080fb7ab854d204ece3a29117428fd36f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProfBot")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProfBot")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

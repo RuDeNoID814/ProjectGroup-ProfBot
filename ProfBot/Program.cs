@@ -5,6 +5,7 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
+using ProjectGroup.handlers;
 
 namespace ProjectGroup
 {
@@ -26,25 +27,30 @@ namespace ProjectGroup
             // Метод обработки ошибок
             async Task OnError(Exception exception, HandleErrorSource source)
             {
-                Console.WriteLine(exception); // Выводит исключение в консоль
+                Console.WriteLine($"Ошибка: {exception.Message}"); // Выводит исключение в консоль
             }
             
             // Метод для обработки сообщений:
             async Task OnMessage(Message msg, UpdateType type)
             {
+                if (msg.Text == null) return;
+                
                 if (msg.Text == "/start")
                 {
-                    await bot.SendMessage(msg.Chat, "Приветствую! Выбери что-то", replyMarkup: new InlineKeyboardButton[] {"Левая кнопка", "Правая кнопка"});
+                    await CommandHandler.HandleStart(msg, bot);
+                }
+                else if (msg.Text == "/help")
+                {
+                    await CommandHandler.HandleHelp(msg, bot);
                 }
             }
             
-            // Метод, который обрабатывает другие типы обновлений, получаемых ботом
+            // Метод, для обработки callback
             async Task OnUpdate(Update update)
             {
-                if (update is { CallbackQuery: { } query }) // Нулевой запрос обратного вызова
+                if (update.CallbackQuery != null)
                 {
-                    await bot.AnswerCallbackQuery(query.Id, $"Ты выбрал {query.Data}");
-                    await bot.SendMessage(query.Message!.Chat, $"Пользователь {query.From} кликнул на {query.Data}");
+                    await CallbackHandler.HandleCallback(update.CallbackQuery, bot);
                 }
             }
         }
